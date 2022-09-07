@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create question</title>
+    <link rel="stylesheet" href="/styles/unibersities.css">
+</head>
+<body>
+  <div class="parent">
+      <nav class="navbar">
+          <span class="logo">XO</span>
+          <img src="/images/icon-menu.svg" onclick="openMenu()" alt="">
+          <div id="menu" class="menu">
+              <img id="close" onclick="closeMenu()" src="/images/icon-close-menu.svg" alt="">
+  
+              <div class="search">
+                  <input type="text" placeholder="ابحث عن مادة">
+                  <button>بحث</button>
+              </div>
+              <a href="" id="logout">تسجيل الخروج</a>
+              <button class="questions" type="submit">الأسئلة</button>
+          </div>
+        <a id="create" href="create.html">إضافة</a>
+      </nav>
+    </div>
+
+    <div class="container">
+        <div class="question-content">
+          <h4 class="">نص السؤال</h1>
+          <textarea name="content" id=content rows="8" cols="40"></textarea>
+          <p>سؤال فريق <input type="checkbox" name="" id="team-quest" /></p>
+        </div>
+        <div class="quest-options">
+          <div class="option">
+            <h4>الاختيار الأول</h4>
+            <textarea name="option" id=option rows="8" cols="40"></textarea>
+            <p>صحيح<input type="checkbox" name="" id="" /> </p>
+          </div>
+          <div class="option">
+            <h4>الاختيار الثاني</h4>
+            <textarea name="option" id=option rows="8" cols="40"></textarea>
+            <p>صحيح<input type="checkbox" name="" id="" /> </p>
+          </div>
+          <div class="option">
+            <h4>الاختيار الثالث</h4>
+            <textarea name="option" id=option rows="8" cols="40"></textarea>
+            <p>صحيح<input type="checkbox" name="" id="" /> </p>
+          </div>
+          <div class="option">
+            <h4>الاختيار الرابع</h4>
+            <textarea name="option" id=option rows="8" cols="40"></textarea>
+            <p>صحيح<input type="checkbox" name="" id="" /> </p>
+          </div>
+          <div class="option">
+            <h4>الاختيار الخامس</h4>
+            <textarea name="option" id=option rows="8" cols="40"></textarea>
+            <p>صحيح<input type="checkbox" name="" id="" /> </p>
+          </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

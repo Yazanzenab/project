@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majors</title>
+    <link rel="stylesheet" href="/styles/unibersities.css">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="logo">XO</span>
+        <img src="/images/icon-menu.svg" onclick="openMenu()" alt="">
+        <div id="menu" class="menu">
+            <img id="close" onclick="closeMenu()" src="/images/icon-close-menu.svg" alt="">
+
+            <div class="search">
+                <input type="text" placeholder="ابحث عن مادة">
+                <button>بحث</button>
+            </div>
+            <a href="" id="logout">تسجيل الخروج</a>
+        </div>
+        <a id="create" href="create_quest.html">إضافة سؤال</a>
+    </nav>
+
+    <div class="container">
+        <div class="major">
+            <h2>االسؤال الأول</h2>
+            <div class="quest_spec" style="display:flex; ">
+                <a href="Major_2">تعديل</a>
+                <a href="Major_2">حذف</a> 
+                <a href="Major_2">التفاصيل</a>
+            </div>
+        </div>
+        <div class="major">
+            <h2>السؤال الثاني</h2>
+            <div class="quest_spec" style="display:flex">
+                <a href="Major_2">تعديل</a>
+                <a href="Major_2">حذف</a> 
+                <a href="Major_2">التفاصيل</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Majors</title>
+    <link rel="stylesheet" href="/styles/unibersities.css">
+</head>
+<body>
+    <nav class="navbar">
+        <span class="logo">XO</span>
+        <img src="/images/icon-menu.svg" onclick="openMenu()" alt="">
+        <div id="menu" class="menu">
+            <img id="close" onclick="closeMenu()" src="/images/icon-close-menu.svg" alt="">
+
+            <div class="search">
+                <input type="text" placeholder="ابحث عن مادة">
+                <button>بحث</button>
+            </div>
+            <a href="" id="logout">تسجيل الخروج</a>
+        </div>
+        <a id="create" href="create.html">إضافة</a>
+    </nav>
+
+    <div class="container">
+        <div class="major">
+            <h2>الطب البشري</h2>
+            <a href="courses.html">المواد</a>
+        </div>
+        <div class="major">
+            <h2>طب الأسنان</h2>
+            <a href="Major_2">المواد</a>
+        </div>
+        <div class="major">
+            <h2>الصيدلة</h2>
+            <a href="Major_2">المواد</a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
